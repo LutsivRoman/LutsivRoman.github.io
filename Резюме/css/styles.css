@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+img {
+   display: block;
+   width: 100%;
+}
+.personal-info {
+  color: white;
+  padding: 25px;
+  background-color: #3f6592;
+  margin: 0 auto;
+}
+.photo {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.img-fluid {
+    object-fit: cover;
+    height: 100%;
+}
+.name {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: larger;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.line {
+  margin: 17px -25px 20px 0;
+  height: 2px;
+  background: white;
+
+}
+.line2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 2px;
+  background: grey;
+}
+.subtitle {
+  margin-top: 10px;
+}
+.content {
+  font-weight: 100;
+}
+.col {
+  width: 100%;
+}
+.col-2 {
+  width: 50%;
+}
+.col-3 {
+  width: 33,33%;
+}
+[class *= 'col'] {
+  display: inline-block;
+}
+.pull-right {
+  text-align: right;
+}
+.experience {
+  background-color: white;
+  color: black;
+  padding: 25px;
+}
+.responsibilities {
+  font-family: serif;
+  font-size: large;
+}
+
+@media screen and (min-width: 800px) {
+  .page-wrapper {
+    display: flex;
+ }
+  .personal-info,
+  .experience {
+    display: inline-block;
+  }
+  .personal-info {
+    width: 25%;
+  }
+  .experience {
+    width: 74%;
+  }
+  
+}
+.tasks {
+   display: flex;
+   flex-wrap: wrap;
+}
+.link-btn {
+    display: flex;
+    max-width: 100px;
+    padding: 10px;
+    margin-left: 5px;
+    border: 2px solid #3f6592;
+    border-radius: 5px;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #3f6592;
+    transition: all .2s ease-in;
+}
