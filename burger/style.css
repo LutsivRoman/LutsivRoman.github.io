@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.page-wrapper {
+    background: linear-gradient(90deg,
+     rgb(41, 32, 34) 0%, 
+     rgba(71, 55, 52, 1) 40%);
+    width: 1100px;
+    margin: 20px auto;
+    position: relative;
+}
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.logo {
+    width: 385px;
+    height: 570px;
+    margin-left: 35px;
+    padding-top: 25px;
+    
+}
+.sale {
+    background: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    top: -310px;
+    width: 385px;
+    height: 215px;
+    padding-top: 60px;
+    cursor: pointer;
+}
+.sale h2 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+.sale span {
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu {
+    background: white;
+    width: 620px;
+    height: 513px;
+    position: absolute;
+    right: 61px;
+    top: 25px;
+    
+}
+.title {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+[class *= 'line'] {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 15px 45px 30px;
+    font-size: 21px;
+}
+.item {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 12px;
+    margin-top: 25px;
+    position: relative;
+}
+.romb {
+    content: '';
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    background-color: rgb(141, 139, 139);
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+}
+.price {
+    font-weight: 100;
+    color: gray;
+    display: block;
+}
+.knopka {
+    display: block;
+    width: 190px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+    left: 850px;
+    top: -45px;
+    cursor: pointer;
+}
