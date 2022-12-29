@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap');
+@import url('_global.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+}
+.page-wrapper {
+    max-width: 1050px;
+    min-width: 490px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    margin-top: 20px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.burgerMenu {
+    width: 35px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.mobMenu {
+    position: fixed;
+    top: 0;
+    left: auto;
+    height: 100vh;
+    width: 100vw;
+    transform: translateY(-200vh);
+    padding-top: 65px;
+    transition: all .5s ease;
+    background-color: #fff;
+}
+.menu-list {
+    font-size: 34px;
+    line-height: 70px;
+    padding: 25px;
+    list-style-type: none;  
+}
+a {
+    text-decoration: none;
+    color: #4e4d4d;
+}
+.mobMenu.show {
+    transform: none;
+    transition: all .9s ease;
+}
+.open {
+    background-image: url('../images/icons/menu.svg');
+}
+.close {
+    position: absolute;
+    right: 80px;
+    top: 90px;
+    background-image: url('../images/icons/close.svg');
+}
+.signIn {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.signIn span {
+    cursor: pointer;
+}
+.startFree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 125px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4F46BA;
+    cursor: pointer;
+}
+.desktopMenu {
+    display: none;
+}
+.content {
+    margin-top: 55px;
+}
+.content h1 {
+    padding: 10px;
+    font-size: 35px;
+}
+.content p {
+    padding: 10px;
+}
+.seeProcess {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ourProcess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 137px;
+    height: 52px;
+    border-radius: 45px;
+    color: white;
+    background-color: #3734A9;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px;
+}
+.howItWorks {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #3734A9;
+    font-size: 14px;
+    font-weight: 600;
+}
+.howItWorks img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.trusted {
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+.companys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.companys img {
+    margin: 15px;
+    width: 100px;
+    height: 18px;
+}
+.believing {
+    text-align: center;
+    margin-top: 40px;
+}
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 42px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3734A9;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.blocks img {
+    margin-top: 25px;
+    padding: 8px;
+}
+.portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    width: 440px;
+    height: 90px;
+    background: #F8F9FD;
+    border-radius: 10px;
+}
+.portfolio h2 {
+    font-size: 17px;
+    font-weight: 800;
+}
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4F46BA;
+    cursor: pointer;
+    font-size: 14px;
+}
+section.users {
+    margin-top: 75px;
+}
+.user {
+    position: relative;
+}
+.block1 {
+    width: 275px;
+    height: 315px;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+    position: relative;
+    display: flex;
+    padding-left: 20px;
+}
+.icon {
+    position: absolute;
+    top: -35px;
+    right: -35px;
+}
+.userContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aboutUsers img {
+   margin-top: 10px;
+}
+.block2 {
+    display: grid;
+    align-content: space-evenly;
+    justify-items: center;
+    position: absolute;
+    width: 260px;
+    height: 255px;
+    left: 175px;
+    top: 135px;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+}
+.shakir {
+    width: 120px;
+    height: 35px;
+    background: #0091D0;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.choose {
+    margin-top: 100px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 1px solid #E6E6E6;
+    height: 250px;
+    width: 350px;
+}
+.heading h6 {
+    color: #3734A9;
+    text-transform: uppercase;
+}
+.heading h2 {
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+}
+.heading p {
+    font-size: 13px;
+}
+.choose ul {
+    list-style-image: url('../images/icons/listStyle.svg');
+    margin: 10px 25px;
+    font-size: 14px;
+}
+.choose ul li {
+    padding: 5px;
+}
+section.ease {
+    text-align: center;
+    margin: 40px 0;
+}
+.support {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.support img {
+    width: 310px;
+    height: 300px;
+    margin: 3px;
+    border: 1px solid #DFDFDF;
+    border-radius: 22px;
+}
+.shadow {
+    box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.12);
+}
+.platform {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4F46BA;
+    cursor: pointer;
+    font-size: 14px;
+}
+.connect {
+    margin-top: 80px;
+}
+.connect img {
+    width: 440px;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+}
+section.coments {
+    
+}
