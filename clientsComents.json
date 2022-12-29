@@ -1,0 +1,49 @@
+{
+  "title": "Check what our 
+            clients are saying",
+
+  "clientsComent": [
+  {
+  "image": "images/client1.png",
+  "comentTitle": "Save Time Managing Social Media For Your Business",
+  "coment": "Is be upon sang fond must shew. Really boy law county she unable her sister. 
+             Feet you off its like like six. Among sex are leave law built now. In built 
+             table in an rapid blush. Merits behind on afraid or warmly.
+             Believing neglected so so allowance existence departure in. In design active 
+             temper be uneasy.",
+  "rating": 0,
+  "stars": "images/star.png",
+  "clientName": "AR Shakir",
+  "profession": "CEO GetNextDesign" 
+    },
+  {
+  "image": "images/client2.png",
+  "comentTitle": "Save Time Managing Social Media For Your Business",
+  "coment": "Is be upon sang fond must shew. Really boy law county she unable her sister. 
+             Feet you off its like like six. Among sex are leave law built now. In built 
+             table in an rapid blush. Merits behind on afraid or warmly.
+             Believing neglected so so allowance existence departure in. In design active 
+             temper be uneasy.",
+  "rating": 5,
+  "stars": "images/star.png",
+  "clientName": "Ivan Banjak",
+  "profession": "joiner" 
+    },
+  {
+  "image": "images/client3.png",
+  "comentTitle": "Save Time Managing Social Media For Your Business",
+  "coment": "Is be upon sang fond must shew. Really boy law county she unable her sister. 
+             Feet you off its like like six. Among sex are leave law built now. In built 
+             table in an rapid blush. Merits behind on afraid or warmly.
+             Believing neglected so so allowance existence departure in. In design active 
+             temper be uneasy.",
+  "rating": 4,
+  "stars": "images/star.png",
+  "clientName": "Petro Daun",
+  "profession": "plumber" 
+    },
+   ]
+ }
+ 
+ 
+
